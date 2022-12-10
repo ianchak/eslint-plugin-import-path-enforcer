@@ -1,0 +1,14 @@
+{
+    "plugins": ["import-path-enforcer"],
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "modules": true
+      }
+    },
+    "rules": {
+      "import-path-enforcer/same-package-import": ["warn", "packages", "@local"],
+      "import-path-enforcer/external-package-import": ["warn", "packages", "@local"]
+    }
+  }
