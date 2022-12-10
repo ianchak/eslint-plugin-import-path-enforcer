@@ -39,12 +39,12 @@ You can also define the shortcut you use to reference this shared package direct
 
 ## Rules
 
-### import-path-enforcer/same-package-import
+### ✅ import-path-enforcer/same-package-import
 
 Enforces the use of absolute imports when importing from a different package.
 
 **Supports autofix!**
 
-### import-path-enforcer/external-package-import
+### ✅ import-path-enforcer/external-package-import
 
 Enforces the use of relative imports when importing inside the same package.
